@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import axios from './axios'
 import './Row.css'
-import {SkeletonProfile} from './skeletons/SkeletonProfile'
 function Row({title, fetchUrl, isLargeRow}) {
     const [movies, setMovies] = useState([])
     const base_url = 'https://image.tmdb.org/t/p/original/'
@@ -30,7 +29,6 @@ function Row({title, fetchUrl, isLargeRow}) {
                                 alt={movie.name} /> 
                         )
                     ) }
-                    {!movies && <SkeletonProfile theme='dark' />}
             </div>
         </div>
     )
