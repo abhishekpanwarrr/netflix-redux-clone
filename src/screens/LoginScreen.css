@@ -56,6 +56,7 @@
     font-size: 1.3rem;
     font-weight: 400;
 }
+
 .loginScreen__input> form > input{
     padding: 10px;
     outline: none;
@@ -65,8 +66,8 @@
     max-width: 600px;
 }
 .loginScreen__getStarted{
-    padding: 16px 20px;
-    font-size: 1rem;
+    padding: 17px 20px;
+    font-size: 0.9rem;
     color: #fff;
     background-color: #e50914;
     border: none;
