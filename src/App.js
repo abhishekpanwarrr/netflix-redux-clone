@@ -11,6 +11,7 @@ import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './features/userSlice';
 import ProfileScreen from './screens/ProfileScreen';
+import Footer from './Footer';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           </Route>
           <Route exact path="/">
             <HomeScreen />
+            <Footer />
           </Route>
         </Switch>
         }

@@ -1,4 +1,5 @@
 .profileScreen{
+    padding-top: 80px;
     height: 100vh;
 }
 .profileScreen__body{
@@ -42,6 +43,7 @@
     border: 0;
     font-weight: 600;
     outline: none;
+    cursor: pointer;
 }
 .profileScreen__plans{
     margin-top: 20px;
@@ -49,4 +51,34 @@
 .profileScreen__plans > h3{
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
+}
+.plans{
+    display: flex;
+    flex-direction: column;
+}
+.plans > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8px;
+}
+.plans > div > li{
+    list-style: none;
+}
+.plans > div > button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    /* margin-top: 5%; */
+    color:white;
+    background-color: #e50914;
+    border: 0;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.plans > div > button:hover{
+    color:#e50914;
+    background-color: white;
+    /* border:1px solid #e50914 */
 }

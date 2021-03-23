@@ -7,6 +7,21 @@
     z-index: 100;
     transition-timing-function: ease-in;
     transition: all 0.5s;
+    color: #e50714;
+}
+/* .nav p{
+    position: fixed;
+    left: 180px;
+}
+.nav p:nth-child(2){
+    left: 280px;
+} */
+.nav p{
+    position: fixed;
+    right: 80px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .nav__black{
     background-color: #111;
